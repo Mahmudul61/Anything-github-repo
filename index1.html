@@ -3,20 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brousing</title>
-    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
 </head>
+<style>
+    body{
+        background-color: rgb(207, 194, 175);
+    }
+    .ma1 {
+        font-size: 20px;
+       
+    }
+    .ma2{
+        margin-left: 800px;
+    }
+    
+    .ma2 li a {
+        text-decoration: none;
+
+    }
+    .ma2 ul li{
+        float: left;
+        list-style: none;
+        margin-left: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: black;
+        
+    }
+    #am{
+        color:white ;
+    }
+    .m3{
+        width: 400px;
+        height: 250px;
+        border: 1px solid rgb(180, 130, 130);
+        border-radius: 10px;
+        margin-left: 800px;
+        margin-top: 100px;
+        background-color: antiquewhite;
+    }
+    #n1{
+        margin-left: 100px;
+        margin-top: 5px;
+        border-radius: 10px;
+    }
+    #n2{
+        margin-left: 100px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    #n3{
+        margin-left: 100px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    #n4{
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+    #n4{
+        text-decoration: none;
+        color: white;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    #n4:hover{
+        background-color: blue;
+    }
+</style>
 <body>
-    <h1>Sign In</h1>
-    <div>
-        <label >Email:</label>
-        <input type="email" name="name" placeholder="@gmail.com" required>
-        <br>
-        <br>
-        <label >Passowerd:</label>
-        <input type="password" name="name" placeholder="" required>
-        <br>
-        <a class="" href="#">Login</a>
+    <div class="ma1">
+        <nav>
+            <h1 style="color: blue;">Web Design</h1>
+            <div class="ma2">
+                <ul>
+                    <li><a id="am" href="#">Home</a></li>
+                    <li><a id="am" href="#">About</a></li>
+                    <li><a id="am" href="#">Contact</a></li>
+                    <li> <a id="am" href="#">Vlog</a></li>
+                    <li><a id="am" href="#">Help</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="m3">
+            <input type="text" id="n1" name="email" placeholder="username" required>
+            <br>
+            <input type="email" id="n2" name="email" placeholder="Email or Phone" required>
+            <br>
+            <input type="password" id="n3" name="pass" placeholder="password" required>
+            <br>
+            <br>
+            <a id="n4" href="#"> Creat Account</a>
+        </div>
+        <div>
+            
+        </div>
     </div>
 </body>
 </html>
